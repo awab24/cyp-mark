@@ -1,0 +1,53 @@
+/* FullWidthSlider.css */
+
+.slider-container {
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    overflow: hidden;
+}
+
+.slide img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.slick-dots li button:before {
+    color: white; /* Customize dot color */
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: white; /* Customize arrow color */
+}
+/* FullWidthSlider.css */
+
+/* Existing styles */
+
+@media (max-width: 768px) {
+    .slider-container {
+        height: 80vh; /* Slightly reduce height for smaller screens */
+    }
+
+    .slide img {
+        height: 80vh; /* Adjust the height of images */
+    }
+
+    button {
+        padding: 5px; /* Smaller buttons for mobile screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .slider-container {
+        height: 60vh; /* Further reduce height for very small screens */
+    }
+
+    .slide img {
+        height: 60vh; /* Adjust the height of images */
+    }
+
+    button {
+        padding: 2px; /* Smaller buttons for small screens */
+    }
+}

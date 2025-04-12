@@ -1,0 +1,83 @@
+/* Container for the page */
+.work-with-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, yellow, purple);
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Content styling */
+  .content {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.7); /* Slightly transparent black background */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Headline styling */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: yellow;
+  }
+  
+  /* Text and contact info styling */
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    font-weight: bold;
+  }
+  
+  /* Buttons container */
+  .buttons-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  /* Call-to-action buttons */
+  .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  /* Button hover effect */
+  .cta-button:hover {
+    background-color: blue;
+    color: white;
+    transform: scale(1.1);
+  }
+  
+  /* Different animations for marketer and deal closer buttons */
+  .marketer {
+    animation: pump-animation 1.5s infinite;
+  }
+  
+  .deal-closer {
+    animation: pump-animation 2s infinite;
+  }
+  
+  /* Pump animation */
+  @keyframes pump-animation {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  

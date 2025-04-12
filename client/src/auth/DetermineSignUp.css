@@ -1,0 +1,56 @@
+.determine-signup-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .button-container {
+    margin: 20px 0;
+  }
+  
+  .pump-button {
+    width: 200px;
+    height: 100px;
+    font-size: 18px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    animation: pump 1s infinite;
+    cursor: pointer;
+  }
+  
+  .seller-button {
+    background-color: #f1c40f;
+  }
+  
+  .buyer-button {
+    background-color: #2ecc71;
+  }
+  
+  .pump-button:hover {
+    transform: scale(1.1);
+  }
+  
+  @keyframes pump {
+    0%, 100% {
+      transform: scale(1);
+      background-color: #f1c40f;
+    }
+    50% {
+      transform: scale(1.2);
+      background-color: #2ecc71;
+    }
+  }
+  
+  .sign-in-link a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 16px;
+  }
+  
+  .sign-in-link a:hover {
+    color: #2ecc71;
+  }
+  

@@ -1,0 +1,72 @@
+/* PayPalButton.css */
+
+.paypal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #000000, #1e90ff); /* Black to blue gradient */
+  color: #ffffff; /* White text for better contrast */
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.paypal-content {
+  background: rgba(0, 0, 0, 0.7); /* Slightly transparent black background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  max-width: 500px;
+  width: 100%;
+}
+
+.paypal-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.paypal-description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #f0f0f0;
+}
+
+.payment-method {
+  margin-bottom: 30px;
+}
+
+.paypal-button,
+.stripe-container {
+  margin: 10px 0;
+}
+
+.stripe-button {
+  background-color: #1e90ff;
+  color: #ffffff;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.stripe-button:hover {
+  background-color: #3a6fb0; /* Darker shade of blue */
+}
+
+.support-info p {
+  color: #f0f0f0;
+  font-size: 0.9rem;
+}
+
+.support-info a {
+  color: #1e90ff;
+  text-decoration: underline;
+}
+
+.support-info a:hover {
+  color: #3a6fb0; /* Hover color for links */
+}

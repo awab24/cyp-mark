@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  min-height: 100vh; /* Allows body to grow if content exceeds viewport */
+  margin: 0;
+  display: flex;
+
+  justify-content: center;
+  overflow-y: auto; /* Allows scrolling if content is too large */
+}
+
+.thank-you-container {
+  background-color: black;
+  padding: 50px;
+  border-radius: 10px;
+  max-width: 90%; /* Limits width to prevent overflow */
+  max-height: 90vh; /* Limits height to prevent overflow */
+  overflow-y: auto; /* Scrolls if content is too large */
+}

@@ -1,0 +1,23 @@
+.apartment-card {
+    border: 2px solid purple; /* Purple border around the entire card */
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+  }
+  
+  .apartment-card:hover {
+    transform: scale(1.05); /* Slight zoom-in effect on hover */
+  }
+  
+  .phone-number {
+    background-color: purple; /* Purple background for phone number */
+    color: white; /* White text color */
+    padding: 10px;
+    border-radius: 0 0 10px 10px; /* Rounded corners */
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2rem; /* Increase font size */
+    position: relative;
+  }
+  

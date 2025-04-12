@@ -1,0 +1,22 @@
+.button-custom {
+  width: 200px; /* Adjust as per your needs */
+  height: 200px; /* Adjust as per your needs */
+  background-color: yellow !important; /* Force yellow background */
+  border-radius: 50%;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease; /* Smooth transition */
+  border: none; /* Remove any default button border */
+  font-family: 'Arial', sans-serif; /* Set the desired font */
+}
+
+.button-custom:hover {
+  background-color: green !important; /* Ensure the hover color is applied */
+  transform: scale(1.2); /* Increase the size on hover */
+  color: white; /* Change text color */
+}

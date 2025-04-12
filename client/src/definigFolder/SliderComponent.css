@@ -1,0 +1,35 @@
+.fullwidth-slider-container {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+  }
+  
+  .fullwidth-image {
+    width: 100%;
+    height: 100%; /* Ensures the image covers the entire height */
+    object-fit: cover; /* Maintains aspect ratio and covers the area */
+  }
+  
+  .yellow-button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .yellow-button:hover {
+    background-color: purple;
+    color: white;
+  }
+  
+  .box-btn {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+  }
+  
+
+  .text-purple {
+    color: purple;
+  }
+  
